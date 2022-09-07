@@ -6,9 +6,10 @@ justify-content: center;
 align-items: center;
 gap: 1rem;
 margin-top: 2rem;
+margin-bottom: 2rem;
 
  span {
-  width: 200px;
+  width: 320px;
   height: 2px;
   color: #000;
  }

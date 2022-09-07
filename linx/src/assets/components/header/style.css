@@ -1,7 +1,6 @@
 .header {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   clip-path: polygon(0 0, 100% 0, 100% 90%, 0 70%);
   background-color: #422256;
