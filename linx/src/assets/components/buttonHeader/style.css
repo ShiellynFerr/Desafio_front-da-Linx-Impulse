@@ -59,3 +59,13 @@ opacity: 1;
   align-items: center;
   gap: 40px;
 }
+
+@media(max-width:800px) {
+  .header .header-box-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0.5rem;
+    align-items: center;
+    gap: 40px;
+  }
+}

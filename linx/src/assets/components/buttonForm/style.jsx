@@ -9,4 +9,5 @@ export const Button = styled.button `
   border: 1px solid #707070;
   border-radius: 4px;
   opacity: 1;
+  color: #422256;
 `

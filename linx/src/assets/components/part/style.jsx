@@ -18,7 +18,7 @@ margin-bottom: 2rem;
 text-align: center;
 font-size: 18px;
 letter-spacing: 0px;
-color: #888888;
+color: #422256;
 opacity: 1;
  }
 `

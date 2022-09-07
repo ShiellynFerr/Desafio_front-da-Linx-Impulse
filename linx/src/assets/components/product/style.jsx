@@ -74,11 +74,30 @@ export const Card = styled.div`
     width: 200px;
     height: 30px;
     background: #ffffff 0% 0% no-repeat padding-box;
-    border: 1px solid #707070;
+    border: 1px solid #ff512f;
     border-radius: 4px;
     opacity: 1;
     cursor: pointer;
+    background-image: linear-gradient(
+      to right,
+      #ff512f 0%,
+      #f09819 51%,
+      #ff512f 100%
+    );
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    display: block;
   }
+
+  button:hover {
+      background-position: right center; /* change the direction of the change here */
+      color: #fff;
+      text-decoration: none;
+    }
 
   .desc {
     font-size: 14px;

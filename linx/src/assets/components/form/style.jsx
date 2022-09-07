@@ -18,7 +18,7 @@ export const Section = styled.section`
     text-align: center;
     font-size: 20px;
     letter-spacing: 0px;
-    color: #888888;
+    color: #422256;
     opacity: 1;
   }
 

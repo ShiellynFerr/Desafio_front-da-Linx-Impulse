@@ -3,8 +3,8 @@ import './App.css'
 import Form from './assets/components/form';
 import Header from './assets/components/header'
 import Footer from './assets/components/footer'
-import Part from './assets/components/part';
 import FormNews from './assets/components/formNews';
+import Product from './assets/components/product';
 
 
 function App() {
@@ -12,6 +12,7 @@ function App() {
       <>
       <Header/>
       <Form/>
+      <Product/>
       <FormNews/>
       <Footer/>
       </>
