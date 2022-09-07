@@ -17,21 +17,45 @@ const Form = () => {
           torquent per conubia nostra, per inceptos himenaeos. Vestibulum vel
           urna tortor. Vivamus et arcu non felis tristique eleifend.
         </p>
-        <p> Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum ultrices. Suspendisse quis lorem ultricies, pulvinar purus sed, egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque ut neque mattis, consequat velit ut, ultrices orci. Nulla varius elementum erat vel pharetra. Aenean sit amet nisi diam. Morbi viverra, magna ac luctus commodo, odio ante suscipit libero, at mattis augue est vel metus.</p>
+        <p>
+          {" "}
+          Morbi eu condimentum urna. Curabitur eu magna eget turpis condimentum
+          ultrices. Suspendisse quis lorem ultricies, pulvinar purus sed,
+          egestas erat. Etiam ultricies a ante vehicula pharetra. Quisque ut
+          neque mattis, consequat velit ut, ultrices orci. Nulla varius
+          elementum erat vel pharetra. Aenean sit amet nisi diam. Morbi viverra,
+          magna ac luctus commodo, odio ante suscipit libero, at mattis augue
+          est vel metus.
+        </p>
       </div>
       <FormBox>
         <div>
-          <InputForm label="Seu nome:" id="nome" />
-          <InputForm label="E-mail" id="email" type="email" />
-          <InputForm label="CPF:" id="cpf" />
+          <InputForm
+            label="Seu nome:"
+            id="nome"
+            type="text"
+            pattern=".{3}"
+            required
+            title="Nome completo necessário"
+          />
+          <InputForm label="E-mail" id="email" type="email" required />
+          <InputForm
+            label="CPF:"
+            id="cpf"
+            type="text"
+            pattern="\d*"
+            minLength="11"
+            required
+            title="CPF inválido, digite apenas números"
+          />
         </div>
         <BoxCheck>
           <div className="check">
-            <input id="masc" type="radio" name="sexo" />
+            <input id="masc" type="radio" name="sexo" required/>
             <label for="masc">Masculino</label>
           </div>
           <div>
-            <input id="fem" type="radio" name="sexo" />
+            <input id="fem" type="radio" name="sexo" required/>
             <label for="fem">Feminino</label>
           </div>
         </BoxCheck>
