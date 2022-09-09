@@ -17,6 +17,7 @@ const Product = () => {
   const loadProducts = async () => {
     const res = await fetch(pages);
     const data = await res.json();
+    
     if(firstLoad) {
       setProduct([ ...data.products]);
       setPages(`https://${data.nextPage}`);
