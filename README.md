@@ -24,6 +24,10 @@ layout em uma página funcional.</strong>💡
 
 <a href="https://frontend-intern-challenge-api.iurykrieger.now.sh/products?page=1">Endpoint da API</a>
 
+# **Teste aqui**
+
+[Linx Impulse](https://clever-pasca-516b78.netlify.app/)
+
 # **Comportamento**
 Para preencher a página com as informações dos produtos, você terá que consultar
 a API de forma paginada, sendo que cada página consultada retornará as
