@@ -47,6 +47,6 @@ conteúdo (ex: O campo de email deve conter um email válido);
 
 <br>
 
-> Made with 💙 by Shiellyn Ferreira [See my Linkedin](https://www.linkedin.com/in/shiellyn-ferreira/)
+> Made with 💙 by Shiellyn Ferreira [See my Linkedin](https://www.linkedin.com/in/shiellyn-ferreira/).
 
 
